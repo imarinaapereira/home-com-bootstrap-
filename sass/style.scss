@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+ font-size:30px ;
+ transform: translateX(0);
+  transition: transform 10s ease;
+  color: white;
+}
+body{
+  background-image: url("./img-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-pequeno{
+  font-size: 15px;
+  margin: 0px;
+}
+span{
+  padding: 0px;
+  gap:0px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
+
+}
+
+.collapse li a {
+  font-size: 15px;
+}
+
+.logoPc{
+  width: 12rem;
+}
+
+.header{
+  margin-bottom: 5rem;
+}
